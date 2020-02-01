@@ -65,7 +65,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
-    "@rollup/plugin-json": "^4.0.0",
+    "@rollup/plugin-json": "4.0.1",
     "@rollup/plugin-node-resolve": "^6.0.0",
     "@rollup/plugin-replace": "^2.2.1",
     "@rollup/plugin-typescript": "^2.0.1",
