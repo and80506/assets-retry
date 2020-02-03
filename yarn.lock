@@ -1345,13 +1345,13 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin-tslint@^2.10.0":
-  version "2.10.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/eslint-plugin-tslint/-/eslint-plugin-tslint-2.10.0.tgz#a5e9c383f166a51a427daeee2fafd7929113b510"
-  integrity sha512-Bcw49dqC1My/cUg+0l7Ao5gn4hm6nyrKkacoLOa3C+08t8YdMshCec6FTUijHORAISWoG1RRmCGS+OHeO39fvA==
+"@typescript-eslint/eslint-plugin-tslint@^2.19.0":
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin-tslint/-/eslint-plugin-tslint-2.19.0.tgz#94e1f105bea47660d6d439b9ed9e5b07e97a8a3e"
+  integrity sha512-a/0i6Q+GHojT2I+UccTrlBMnH7Y+evy7+Wg95Jiue4t+G+nITXV5hY5nI9tmY/L7P+SCdri9KDXj2lyn5O2F1g==
   dependencies:
-    "@typescript-eslint/experimental-utils" "2.10.0"
-    lodash.memoize "^4.1.2"
+    "@typescript-eslint/experimental-utils" "2.19.0"
+    lodash "^4.17.15"
 
 "@typescript-eslint/eslint-plugin@^2.10.0":
   version "2.10.0"
@@ -1371,6 +1371,15 @@
   dependencies:
     "@types/json-schema" "^7.0.3"
     "@typescript-eslint/typescript-estree" "2.10.0"
+    eslint-scope "^5.0.0"
+
+"@typescript-eslint/experimental-utils@2.19.0":
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-2.19.0.tgz#d5ca732f22c009e515ba09fcceb5f2127d841568"
+  integrity sha512-zwpg6zEOPbhB3+GaQfufzlMUOO6GXCNZq6skk+b2ZkZAIoBhVoanWK255BS1g5x9bMwHpLhX0Rpn5Fc3NdCZdg==
+  dependencies:
+    "@types/json-schema" "^7.0.3"
+    "@typescript-eslint/typescript-estree" "2.19.0"
     eslint-scope "^5.0.0"
 
 "@typescript-eslint/parser@^2.10.0":
@@ -1393,6 +1402,19 @@
     glob "^7.1.6"
     is-glob "^4.0.1"
     lodash.unescape "4.0.1"
+    semver "^6.3.0"
+    tsutils "^3.17.1"
+
+"@typescript-eslint/typescript-estree@2.19.0":
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-2.19.0.tgz#6bd7310b9827e04756fe712909f26956aac4b196"
+  integrity sha512-n6/Xa37k0jQdwpUszffi19AlNbVCR0sdvCs3DmSKMD7wBttKY31lhD2fug5kMD91B2qW4mQldaTEc1PEzvGu8w==
+  dependencies:
+    debug "^4.1.1"
+    eslint-visitor-keys "^1.1.0"
+    glob "^7.1.6"
+    is-glob "^4.0.1"
+    lodash "^4.17.15"
     semver "^6.3.0"
     tsutils "^3.17.1"
 
@@ -5880,7 +5902,7 @@ lodash.map@^4.5.1:
   resolved "https://registry.npmjs.org/lodash.map/-/lodash.map-4.6.0.tgz#771ec7839e3473d9c4cde28b19394c3562f4f6d3"
   integrity sha1-dx7Hg540c9nEzeKLGTlMNWL09tM=
 
-lodash.memoize@4.x, lodash.memoize@^4.1.2:
+lodash.memoize@4.x:
   version "4.1.2"
   resolved "https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
